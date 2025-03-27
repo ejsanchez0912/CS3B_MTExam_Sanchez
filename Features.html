@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edrian Joel Sanchez - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="feature-page">
+    <header>
+        <div class="container">
+            <h1>Edrian Joel Sanchez</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="feature.html" class="active">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <p>Showcasing my best web development projects and products</p>
+        </div>
+    </section>
+
+    <div class="main-content">
+        <main>
+            <section id="feature-presentation">
+                <div class="feature-showcase">
+                    <div class="feature-image">
+                        <img src="feature-main.jpg" alt="Featured Project">
+                    </div>
+                    <div class="feature-details">
+                        <h2>E-Commerce Platform</h2>
+                        <p>A comprehensive e-commerce solution built with React, Node.js, and MongoDB. This platform includes user authentication, product management, shopping cart functionality, payment processing, and order tracking.</p>
+                        <p>The application features a responsive design that works seamlessly across all devices and includes an admin dashboard for inventory management.</p>
+                        <div class="tech-stack">
+                            <span class="tech">React</span>
+                            <span class="tech">Node.js</span>
+                            <span class="tech">Express</span>
+                            <span class="tech">MongoDB</span>
+                            <span class="tech">Stripe API</span>
+                        </div>
+                        <a href="#" class="btn">View Live Demo</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="feature-products">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    <div class="product-card" data-id="1">
+                        <div class="product-image">
+                            <img src="Business Website Template.jpg" alt="Website Template">
+                        </div>
+                        <div class="product-details">
+                            <h3>Business Website Template</h3>
+                            <p>A responsive business website template with modern design</p>
+                            <div class="product-price">$49.99</div>
+                            <button class="add-to-cart-btn" data-id="1" data-name="Business Website Template" data-price="49.99">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="2">
+                        <div class="product-image">
+                            <img src="E-commerce Template.jpg" alt="E-commerce Template">
+                        </div>
+                        <div class="product-details">
+                            <h3>E-commerce Template</h3>
+                            <p>Complete e-commerce solution with shopping cart</p>
+                            <div class="product-price">$79.99</div>
+                            <button class="add-to-cart-btn" data-id="2" data-name="E-commerce Template" data-price="79.99">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="3">
+                        <div class="product-image">
+                            <img src="Portfolio Template.jpg" alt="Portfolio Template">
+                        </div>
+                        <div class="product-details">
+                            <h3>Portfolio Template</h3>
+                            <p>Showcase your work with this elegant portfolio template</p>
+                            <div class="product-price">$39.99</div>
+                            <button class="add-to-cart-btn" data-id="3" data-name="Portfolio Template" data-price="39.99">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="4">
+                        <div class="product-image">
+                            <img src="Blog Template.jpg" alt="Blog Template">
+                        </div>
+                        <div class="product-details">
+                            <h3>Blog Template</h3>
+                            <p>Modern blog template with multiple layouts</p>
+                            <div class="product-price">$29.99</div>
+                            <button class="add-to-cart-btn" data-id="4" data-name="Blog Template" data-price="29.99">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside>
+            <div class="feature-logo">
+                <img src="logo.jpg" alt="Edrian Joel Sanchez Logo">
+            </div>
+            <div class="cart-container">
+                <h3>Shopping Cart</h3>
+                <div id="cart-items">
+                    
+                    <p class="empty-cart-message">Your cart is empty</p>
+                </div>
+                <div class="cart-total">
+                    <p>Total: <span id="cart-total-price">$0.00</span></p>
+                </div>
+                <button id="checkout-btn" class="btn" disabled>Checkout</button>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Edrian Joel Sanchez. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
